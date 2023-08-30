@@ -1,0 +1,218 @@
+body  {
+    font-family: 'Lato', sans-serif;
+}
+
+ /*.main-heading   {
+    
+    font-size: 4.5rem;
+    text-transform:lowercase;
+    
+    color:#fff;
+    transform: translateY(150px);
+    
+
+
+}*/ 
+
+
+.container {
+    height:100vh;
+    width:80vh;
+    background-color:#0a5cfe;
+    margin:0px auto;
+    text-align:center;
+    overflow:hidden;
+    border-radius:3.5rem;
+    color:white;
+}
+.main-heading  {
+    animation-name:myAnimation;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction:initial;
+}
+
+
+
+.options  {
+    background-color:#242424;
+    height:40%;
+    margin-top:50px;
+    border-radius:2rem;
+    text-align:center;
+
+
+    
+}
+
+.btn_one  {
+    background-color:#0a5cfe;
+    border-radius:0.8rem;
+    height:2rem;
+    width:25rem;
+}
+
+.buttons  {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align:center;
+
+}
+
+a  {
+    text-decoration:none;
+    font-size:1rem;
+    font-weight:150;
+    color:white;
+    
+    
+}
+
+.btn_two  {
+    height:2rem;
+    width: 25rem;
+    background-color: #383838;
+    border-radius:0.8rem;
+    opacity:0.8;
+    
+    
+    
+}
+
+.icon i {
+    font-size:1.5rem;
+    color:white;
+    transform:translateY(35px) translateX(-180px);
+    
+}
+
+.options h5  {
+    font-size:1rem;
+    transform:translateY(20px);
+}
+
+.options p  {
+    font-weight:lighter;
+    font-size:0.85rem;
+}
+
+.btn_one:hover  {
+    opacity:0.8;
+}
+
+.btn_two:hover  {
+    opacity:1;
+    
+}
+
+
+/*.main-heading  {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+    
+}
+
+.main-heading i {
+    font-size:1.25rem;
+    background-color: #ffffff;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    text-align:center;
+    color:#0a5cfe;
+}
+    
+    
+    
+
+
+
+
+h1  {
+    text-align:center;
+    transform:translateX(50px) translateY(90px);
+    font-size:50px;
+    text-transform:lowercase;
+}
+
+.special {
+    display:inline-block;
+
+    transform:translateY(-15px);
+    
+    
+}*/
+
+@keyframes myAnimation  {
+    from  {
+           
+            display:inline-block;
+            font-size: 4.5rem;
+            text-transform:lowercase;
+            
+            color:#fff;
+            transform: translateY(150px);
+            
+    }
+
+    to {
+         
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            
+            
+            
+        
+        
+         i {
+            font-size:1.25rem;
+            background-color: #ffffff;
+            height:30px;
+            width:30px;
+            border-radius:50%;
+            text-align:center;
+            color:#0a5cfe;
+        }
+            
+            
+            
+        
+        
+        
+        
+        h1  {
+            text-align:center;
+            transform:translateX(50px) translateY(90px);
+            font-size:50px;
+            text-transform:lowercase;
+        }
+        
+        .special {
+            display:inline-block;
+        
+            transform:translateY(-15px);
+            
+            
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+    
